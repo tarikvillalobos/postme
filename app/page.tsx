@@ -5,11 +5,9 @@ import { buttonVariants } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-      <main className="grid min-h-screen w-full max-w-6xl grid-cols-[1.25fr_3.5fr_1.25fr]">
-        <section className="bg-green-100" />
-
+      <main className="min-h-screen w-full max-w-6xl">
         <section className="bg-white dark:bg-zinc-900 p-8">
-          <div className="flex h-full flex-col items-center justify-center gap-8 text-center">
+          <div className="flex min-h-screen flex-col items-center justify-center gap-8 text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-black dark:text-white">
               Postme
             </h1>
@@ -29,8 +27,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <section className="bg-green-100" />
       </main>
     </div>
   )
