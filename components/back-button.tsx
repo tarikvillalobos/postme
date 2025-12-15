@@ -37,7 +37,7 @@ export function BackButton({
           variant: "ghost",
           size: "sm",
           className:
-            "inline-flex w-fit items-center gap-2 rounded-full bg-white/70 px-3 py-2 text-black shadow-sm ring-1 ring-zinc-200 backdrop-blur transition hover:bg-white hover:text-black",
+            "inline-flex w-fit items-center gap-2 rounded-full bg-white/70 px-3 py-2 text-black shadow-sm ring-1 ring-zinc-200 backdrop-blur transition hover:bg-zinc-100 hover:text-black",
         }),
         className,
       )}
