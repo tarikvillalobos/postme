@@ -19,7 +19,7 @@ import { Input } from "@/components/ui/input";
 
 export default function RegisterPage() {
   return (
-    <div className="relative flex min-h-screen items-center justify-center bg-gradient-to-b from-white to-zinc-50 px-4 py-16">
+    <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-b from-white to-zinc-50 px-4 py-16">
       <div className="absolute left-4 top-4 md:left-8 md:top-8">
         <BackButton />
       </div>
